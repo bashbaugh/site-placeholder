@@ -1,0 +1,61 @@
+:root {
+  background-color: #1E1B4B;
+}
+
+html, body {
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  background: radial-gradient(ellipse at 70% 70%, #083344 0%, #1E1B4B 100%);
+
+  color: white;
+  font-family: Lexend, sans-serif;
+  font-weight: 200;
+  font-size: 1.1rem;
+  line-height: 150%;
+}
+
+.root {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  font-family: Outfit, sans-serif;
+  font-weight: 700;
+  font-size: 1.75rem;
+  cursor: default;
+}
+
+main {
+  max-width: 540px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1.6rem;
+}
+
+a {
+  color: #F43F5E;
+  text-decoration: none;
+}
+
+.text {
+  opacity: 0.85;
+}
+
+.links {
+  opacity: 0.6;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
